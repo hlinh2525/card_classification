@@ -1,0 +1,99 @@
+{
+  "image_size": [
+    224,
+    224
+  ],
+  "color": "RGB",
+  "batch_size": 32,
+  "target": "class_id",
+  "num_classes": 53,
+  "label_map": {
+    "ace of clubs": 0,
+    "ace of diamonds": 1,
+    "ace of hearts": 2,
+    "ace of spades": 3,
+    "eight of clubs": 4,
+    "eight of diamonds": 5,
+    "eight of hearts": 6,
+    "eight of spades": 7,
+    "five of clubs": 8,
+    "five of diamonds": 9,
+    "five of hearts": 10,
+    "five of spades": 11,
+    "four of clubs": 12,
+    "four of diamonds": 13,
+    "four of hearts": 14,
+    "four of spades": 15,
+    "jack of clubs": 16,
+    "jack of diamonds": 17,
+    "jack of hearts": 18,
+    "jack of spades": 19,
+    "joker": 20,
+    "king of clubs": 21,
+    "king of diamonds": 22,
+    "king of hearts": 23,
+    "king of spades": 24,
+    "nine of clubs": 25,
+    "nine of diamonds": 26,
+    "nine of hearts": 27,
+    "nine of spades": 28,
+    "queen of clubs": 29,
+    "queen of diamonds": 30,
+    "queen of hearts": 31,
+    "queen of spades": 32,
+    "seven of clubs": 33,
+    "seven of diamonds": 34,
+    "seven of hearts": 35,
+    "seven of spades": 36,
+    "six of clubs": 37,
+    "six of diamonds": 38,
+    "six of hearts": 39,
+    "six of spades": 40,
+    "ten of clubs": 41,
+    "ten of diamonds": 42,
+    "ten of hearts": 43,
+    "ten of spades": 44,
+    "three of clubs": 45,
+    "three of diamonds": 46,
+    "three of hearts": 47,
+    "three of spades": 48,
+    "two of clubs": 49,
+    "two of diamonds": 50,
+    "two of hearts": 51,
+    "two of spades": 52
+  },
+  "scratch": {
+    "pixel_range": [
+      0,
+      1
+    ]
+  },
+  "resnet18": {
+    "pixel_range_before_normalize": [
+      0,
+      1
+    ],
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "train_augmentation": {
+    "rotation_degrees": 10,
+    "brightness": 0.1,
+    "contrast": 0.1,
+    "horizontal_flip": false
+  },
+  "validation_test_augmentation": false,
+  "split_sha256": {
+    "train": "5d4089ad71d74a51f2a83be21b675eb742bd09abc7809fbd3120cb6507985ff8",
+    "val": "752148f3daec466d5e08ae7c3981341bc4c3bd6884e12831bedd44eb62d29f10",
+    "test": "d49c9803c683c8224a3cb1276664f18945bb44a82964bb01ebb1667f6a5882b6"
+  }
+}
